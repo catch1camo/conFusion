@@ -1,0 +1,41 @@
+header .row {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.jumbotron {
+    padding: 70px 30px;
+    margin: 0px auto;
+    background: rgb(104, 129, 113);
+    color: antiquewhite;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.container div.row:last-child {
+    border: none;
+    /*color: red;*/
+}
+
+.footer {
+    background-color: rgb(187, 199, 198);
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.address {
+    font-size: 80%;
+    margin: 0px;
+    color: rgb(60, 65, 61);
+}
+
+.copyright {
+    font-size: 80%;
+    margin: 30px auto;
+    color: rgb(60, 65, 61);
+}
