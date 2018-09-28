@@ -1,4 +1,4 @@
-header .row {
+header .row, .row-header { /* two options to do the same thing */
     margin: 0px auto;
     padding: 0px auto;
 }
