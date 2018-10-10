@@ -60,3 +60,16 @@ body {
     border-bottom: 1px solid #ddd;
     padding: 30px
 }
+
+/** TEMP 
+
+#accordion .card {
+    margin-bottom: 20px;
+    border: none;
+}
+
+#accordion .card .card-header {
+    border-bottom: none;
+}
+
+END TEMP **/
