@@ -1,4 +1,4 @@
-header .row, .row-header { /* two options to do the same thing */
+.row-header { /* header .row another option to do the same thing */
     margin: 0px auto;
     padding: 0px auto;
 }
@@ -6,7 +6,7 @@ header .row, .row-header { /* two options to do the same thing */
 .jumbotron {
     padding: 70px 30px;
     margin: 0px auto;
-    background: rgb(104, 129, 113);
+    background: rgb(48, 116, 73);
     color: antiquewhite;
 }
 
@@ -61,15 +61,15 @@ body {
     padding: 30px
 }
 
-/** TEMP 
+/** TEMP // // END TEMP **/
 
 #accordion .card {
-    margin-bottom: 20px;
-    border: none;
+    margin-bottom: 10px;
+    /**border: none;**/
 }
 
 #accordion .card .card-header {
     border-bottom: none;
+    cursor: pointer;
 }
 
-END TEMP **/
