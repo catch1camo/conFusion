@@ -17,7 +17,7 @@
     min-height: 400px;
 }
 
-.container div.row-content:last-child { /* my adding */
+.container div.row-content:last-child { /* my add */
     border: none;
 }
 
@@ -27,7 +27,7 @@
     padding: 20px 0px;
 }
 
-.address { /* my add */
+.address {
     font-size: 80%;
     margin: 0px;
     color: rgb(60, 65, 61);

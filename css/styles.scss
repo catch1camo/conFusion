@@ -1,0 +1,108 @@
+// con Fusion preprocessed styles
+// color variables
+$lt-gray: #ddd;
+$background-dark: rgb(83, 99, 86);
+$background-light: rgb(86, 189, 124);
+$background-pale: rgb(154, 177, 175);
+
+$gray-eeninsh: rgb(60, 65, 61);
+
+// Height variables
+$carousel-item-height: 300px;
+
+// Mixins
+@mixin zero-margin($pad-up-dn, $pad-left-right) {
+    margin: 0px auto;
+    padding: $pad-up-dn $pad-left-right;
+}
+
+// classes and ids
+// //
+
+.row-header {
+    @include zero-margin(0px, 0px);
+}
+
+.jumbotron {
+    @include zero-margin(70px, 30px);
+    background-color: $background-light;
+    color: antiquewhite;
+}
+
+.row-content {
+    @include zero-margin(50px, 0px);
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.container div.row-content:last-child { //my add
+    border-bottom: none;
+}
+
+.footer {
+    @include zero-margin(20px, 0px);
+    background-color: $background-pale;
+}
+
+address {
+    font-size: 80%;
+    margin: 0px;
+    color: $gray-eeninsh;
+}
+
+.copyright {
+    font-size: 80%;
+    margin: 30px auto;
+    color: $gray-eeninsh;
+}
+
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-dark {
+    background-color: $background-dark;
+}
+
+.breadcrumb { //my add
+    background-color: none;
+    background: none;
+}
+
+.tab-content {
+    border-left: 1px solid $lt-gray;
+    border-right: 1px solid $lt-gray;
+    border-bottom: 1px solid $lt-gray;
+    padding: 30px;
+}
+
+//my adding for accordion
+#accordion .card {
+    margin-bottom: 10px;
+}
+#accordion .card .card-header {
+    border-bottom: none;
+    cursor: pointer;
+}
+
+// nesting for carousel
+.carousel {
+    background-color: $background-dark;
+
+    .carousel-item {
+        height: $carousel-item-height;
+        img {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            min-height: 300px;
+        }
+    }
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}

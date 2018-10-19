@@ -8,7 +8,7 @@
 
 // Mixin
 .zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {
-    margin: 0 auto;
+    margin: 0px auto;
     padding: @pad-up-dn @pad-left-right;
 }
 
@@ -37,7 +37,7 @@
     background-color: @background-pale;
 }
 
-.address {
+address {
     font-size: 80%;
     margin: 0px;
     color: rgb(60, 65, 61);
@@ -72,14 +72,19 @@ body {
 // my adding for #accordion
 #accordion .card {
     margin-bottom: 10px;
+    .card-header {
+        border-bottom: none;
+        cursor: pointer;
+    }
     
 }
 
-#accordion .card .card-header {
-    border-bottom: none;
-    cursor: pointer;
-}
+// #accordion .card .card-header {
+//    border-bottom: none;
+//    cursor: pointer;
+//}
 
+// nesting for carousel
 .carousel {
     background-color: @background-dark;
 
@@ -87,8 +92,8 @@ body {
         height: @carousel-item-height;
         img {
             position: absolute;
-            top: 0;
-            left: 0;
+            top: 0px;
+            left: 0px;
             min-height: 300px;
         }
     }
@@ -96,6 +101,6 @@ body {
 
 #carouselButton {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 0px;
+    bottom: 0px;
 }

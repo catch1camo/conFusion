@@ -1,0 +1,75 @@
+.row-header {
+  margin: 0 auto;
+  padding: 0px 0px;
+}
+.jumbotron {
+  margin: 0 auto;
+  padding: 70px 30px;
+  background: #56bd7c;
+  color: antiquewhite;
+}
+.row-content {
+  margin: 0 auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+.container div.row-content:last-child {
+  border-bottom: none;
+}
+.footer {
+  margin: 0 auto;
+  padding: 20px 0px;
+  background-color: #9ab1af;
+}
+.address {
+  font-size: 80%;
+  margin: 0px;
+  color: #3c413d;
+}
+.copyright {
+  font-size: 80%;
+  margin: 30px auto;
+  color: #3c413d;
+}
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+}
+.navbar-dark {
+  background-color: #536356;
+}
+.breadcrumb {
+  background: none;
+  background-color: none;
+}
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 30px;
+}
+#accordion .card {
+  margin-bottom: 10px;
+}
+#accordion .card .card-header {
+  border-bottom: none;
+  cursor: pointer;
+}
+.carousel {
+  background-color: #536356;
+}
+.carousel .carousel-item {
+  height: 300px;
+}
+.carousel .carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
