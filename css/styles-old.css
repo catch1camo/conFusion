@@ -1,0 +1,95 @@
+.row-header { /* header .row another option to do the same thing */
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.jumbotron {
+    padding: 70px 30px;
+    margin: 0px auto;
+    background: rgb(86, 189, 124);
+    color: antiquewhite;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-bottom: 10px ridge;
+    min-height: 400px;
+}
+
+.container div.row-content:last-child { /* my adding */
+    border: none;
+}
+
+.footer {
+    background-color: rgb(154, 177, 175);
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.address { /* my add */
+    font-size: 80%;
+    margin: 0px;
+    color: rgb(60, 65, 61);
+}
+
+.copyright { /* my add */
+    font-size: 80%;
+    margin: 30px auto;
+    color: rgb(60, 65, 61);
+}
+
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-dark {
+    background-color: rgb(83, 99, 86);
+}
+
+.breadcrumb { /* my add */
+    background: none;
+    background-color: none;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 30px
+}
+
+/* my adding */
+
+#accordion .card {
+    margin-bottom: 10px;
+    /**border: none;**/
+}
+
+#accordion .card .card-header {
+    border-bottom: none;
+    cursor: pointer;
+}
+
+/* carousel */
+.carousel {
+    background-color: rgb(83, 99, 86);
+}
+
+.carousel-item {
+    height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
