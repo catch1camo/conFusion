@@ -106,3 +106,22 @@ body {
     right: 0px;
     bottom: 0px;
 }
+
+// my add
+.login-style {
+    cursor: pointer;
+}
+
+// assigment 4 styles for modal-header and modal-body background
+.modal-header {
+    background-color: $background-dark;
+    color: antiquewhite;
+    border-bottom: none;
+    .close {
+        color: antiquewhite;
+    }
+}
+
+.modal-body {
+    background-color: $background-pale;
+}
